@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Authentik Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: #111;
+      background: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: left;
+      padding: 4rem 2rem;
+      background: #fff;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .hero h1 span {
+      font-weight: 700;
+    }
+    .hero p {
+      margin: 1rem 0;
+    }
+    .hero .buttons {
+      margin-top: 1.5rem;
+    }
+    .hero button,
+    .hero a {
+      padding: 0.8rem 1.5rem;
+      background: #000;
+      color: #fff;
+      border: none;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+    .mountain {
+      max-width: 100%;
+      height: auto;
+    }
+    .journey {
+      padding: 4rem 2rem;
+      background: #fafafa;
+    }
+    .journey h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .journey .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .feature {
+      flex: 1 1 250px;
+    }
+    .feature h3 {
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .get-started {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 4rem 2rem;
+      background: #fff;
+    }
+    .column {
+      flex: 1 1 300px;
+      margin: 1rem 0;
+    }
+    .form-box {
+      background: #f9f9f9;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .form-box input {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .form-box label {
+      display: block;
+      margin-top: 1rem;
+    }
+    .form-box button {
+      width: 100%;
+      padding: 0.75rem;
+      background: #000;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      margin-top: 1rem;
+    }
+    footer {
+      padding: 2rem;
+      background: #fafafa;
+      font-size: 0.875rem;
+    }
+    .footer-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .footer-col {
+      flex: 1 1 150px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+      .journey .features,
+      .get-started {
+        flex-direction: column;
+      }
+      .footer-grid {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><img src="https://marketplace.canva.com/EAFJsx54Fsw/1/0/1600w/canva-abstract-mountain-logo-X4MrKxaUTiw.jpg" alt="Authentik Logo" width="100" /></div>
+    <nav>
+      <a href="#">Start Here</a>
+      <a href="#">Our Blog</a>
+      <a href="#">Podcast</a>
+      <a href="#">Newsletter</a>
+      <a href="#">Get in Touch</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to <span>Authentic.</span></h1>
+    <p>We help creative entrepreneurs build an honest brand & digital platform.</p>
+    <div class="buttons">
+      <button>START YOUR JOURNEY</button>
+      <a href="#">LEARN MORE →</a>
+    </div>
+  </section>
+
+  <section class="journey">
+    <h2>Start your journey.</h2>
+    <p>Come as you are. Bring your talents, your brilliance, your frustrations, your struggles—and let’s turn them into something awesome.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Be inspired.</h3>
+        <p>We want to give you the help and support you need to make huge strides towards the vision you’re after in your business.</p>
+      </div>
+      <div class="feature">
+        <h3>Get connected.</h3>
+        <p>Jam with fellow tribe members, share experiences, stay accountable, and encourage one another on your journey.</p>
+      </div>
+      <div class="feature">
+        <h3>Equip yourself.</h3>
+        <p>Discover the tools and resources you need to build a beautiful website and create an amazing brand and digital platform.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="get-started">
+    <div class="column">
+      <h2>Get started today.</h2>
+      <p>Introducing the Authentik Framework™ for creative entrepreneurs.</p>
+      <ul>
+        <li><strong>Authentic Living:</strong> Honest living builds honest business.</li>
+        <li><strong>Authentic Design:</strong> Good typography and white space.</li>
+        <li><strong>Authentic Business:</strong> Transparency builds trust.</li>
+        <li><strong>authentic Community:</strong> Business and life—together.</li>
+      </ul>
+    </div>
+    <div class="column form-box">
+      <h3>Start your journey.</h3>
+      <p>We help creative entrepreneurs build an honest brand & digital platform.</p>
+      <input type="text" placeholder="First Name" />
+      <input type="email" placeholder="Email Address" />
+      <label><input type="checkbox" /> I accept the terms of service and privacy policy.</label>
+      <button>GET STARTED TODAY</button>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>WE BELIEVE</strong><br />
+    "The key to building an authentic business is building an authentic life." — Brian Gardner</p>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>ABOUT</h4>
+        <p>Start Here<br />Our Blog<br />Podcast<br />Newsletter</p>
+      </div>
+      <div class="footer-col">
+        <h4>SERVICES</h4>
+        <p>Consulting<br />Social Media<br />Web Design<br />Get in Touch</p>
+      </div>
+      <div class="footer-col">
+        <h4>RESOURCES</h4>
+        <p>Themes<br />Web Fonts<br />Tutorials<br />Daily Reads</p>
+      </div>
+      <div class="footer-col">
+        <h4>CONNECT</h4>
+        <p>Facebook<br />Instagram<br />Twitter<br />GitHub</p>
+      </div>
+    </div>
+    <p style="margin-top:2rem;">© 2018 · All rights reserved · <a href="#">Terms of Service</a> · <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
